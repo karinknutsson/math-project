@@ -26,5 +26,3 @@ def get_divided_difference(y):
 
 
 y = [48, 100, 294, 900, 1210, 2028]
-
-get_divided_difference(y)
