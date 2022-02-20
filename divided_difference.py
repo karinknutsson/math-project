@@ -13,7 +13,7 @@ def get_divided_difference(y):
     a.append(y[0])
 
     if (len(y) == 1):
-        return y
+        return
 
     new_y = []
 
@@ -22,7 +22,7 @@ def get_divided_difference(y):
 
     z += 1
 
-    newton(new_y)
+    get_divided_difference(new_y)
 
 
 y = [48, 100, 294, 900, 1210, 2028]
