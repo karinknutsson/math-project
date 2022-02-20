@@ -1,4 +1,4 @@
-x = [4, 5, 7, 10, 11, 13]
+newton_base = [4, 5, 7, 10, 11, 13]
 a = []
 z = 1
 
@@ -16,9 +16,8 @@ def get_divided_difference(y):
         return
 
     new_y = []
-
     for i in range(0, len(y) - 1):
-        new_y.append(divide(y[i], y[i + 1], x[i], x[i + z]))
+        new_y.append(divide(y[i], y[i + 1], newton_base[i], newton_base[i + z]))
 
     z += 1
 

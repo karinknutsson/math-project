@@ -10,7 +10,3 @@ def interpolation(a, x, newton_base):
         total += a[i] * multiplier
 
     return total
-
-get_divided_difference(y)
-
-print(interpolation(a, 10, x))
